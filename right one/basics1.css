@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	margin-top:50px;
+	font-family:sans-serif;
+	}
+header{
+	display:flex;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	height:50px;
+	line-height:50px;
+	background-color:grey;
+	
+	
+	}
+header *{
+	display:inline;
+	height:50px;
+	}
+header ul{
+	padding:0;
+	}
+header li{
+	margin-left:20px;
+	}	
+header a{
+		text-decoration:none;
+	}
+	
+section{
+	height:100vh;
+	border:1px solid black;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	
+	/*images code */
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+#home .profile{
+	width:300px;
+	border-radius:60%;
+	}
+footer{
+	text-align:center;
+	padding:50px;
+}
+#contact a{
+	text-decoration:none;
+}
+section h2{
+	font-size:3em;
+}
+section h3{
+	font-size:2em;
+}
+#home{
+	background-image:linear-gradient(rgba(25,25,255,0.2),rgba(25,25,255,0.2)),url('flower.png')
+}
+#about{
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('flower1.png')
+}
+#contact{
+	background-image:linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('flower2.png')
+}
+
